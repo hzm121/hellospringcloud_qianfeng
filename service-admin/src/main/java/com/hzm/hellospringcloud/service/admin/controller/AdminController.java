@@ -14,7 +14,7 @@ public class AdminController {
     @Value("${server.port}")
     private String port;
 
-    @RequestMapping(value = "getMsg",method = RequestMethod.GET)
+    @RequestMapping(value = "hi",method = RequestMethod.GET)
     public String sayHi(String msg){
         return String.format("your msg is %s,your port is %s",msg,port);
     }
