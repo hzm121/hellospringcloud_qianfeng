@@ -3,7 +3,7 @@ spring:
     name: hellospring-eureka
 
 server:
-  port: 8761
+  port: 8760
 
 
 eureka:
