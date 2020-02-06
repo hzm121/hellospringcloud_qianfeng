@@ -18,7 +18,7 @@ public class AdminService {
 
     @HystrixCommand(fallbackMethod = "sayHiError")
     public String sayHi(String msg){
-        String forObject = restTemplate.getForObject("http://hellospringcloud-service-admin/getMsg?msg=123", String.class);
+        String forObject = restTemplate.getForObject("http://hellospringcloud-service-admin/hi?msg=123", String.class);
         return forObject;
     }
 

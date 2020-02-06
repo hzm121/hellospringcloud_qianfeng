@@ -1,6 +1,6 @@
 spring:
   application:
-    name: hellospringcloud-web-admin
+    name: hellospringcloud-web-admin-ribbon
   thymeleaf:
     cache: false
     mode: LEGACYHTML5
