@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: hellospringcloud-config
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/hzm121/spring-cloud-config-qianfeng.git
+          search-paths: respo
+          username: hzm121
+          password: Ahzm517lyw
+
+server:
+  port: 8888
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8760/eureka/

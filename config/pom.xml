@@ -10,7 +10,7 @@
         <relativePath>../dependencies/pom.xml</relativePath>
     </parent>
 
-    <artifactId>hello-spring-cloud-zuul</artifactId>
+    <artifactId>hello-spring-cloud-config</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -29,7 +29,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
         <!-- Spring Cloud End -->
     </dependencies>
@@ -40,7 +40,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.hzm.hellospringcloud.zuul.ZuulApplication</mainClass>
+                    <mainClass>com.hzm.hellospringcloud.config.ConfigApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

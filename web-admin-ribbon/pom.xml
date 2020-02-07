@@ -68,7 +68,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.hzm.hellospringcloud.service.admin.ServiceAdminApplication</mainClass>
+                    <mainClass>com.hzm.spring.cloud.web.admin.ribbon</mainClass>
                 </configuration>
             </plugin>
         </plugins>
