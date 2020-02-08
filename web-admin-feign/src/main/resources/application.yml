@@ -4,4 +4,4 @@ spring:
       uri: http://localhost:8888 #spring-cloud-config服务地址
       name: hellospringcloud-web-service-admin-feign #配置文件的名字
       label: master #分支
-      profile: prod
+      profile: dev
