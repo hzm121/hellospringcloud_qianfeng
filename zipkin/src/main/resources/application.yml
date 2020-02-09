@@ -1,6 +1,10 @@
 spring:
   application:
     name: hellospringcloud-zipkin
+  boot:
+    admin:
+      client:
+        api-path: http://localhost:8084
 server:
   port: 9411
 eureka:
