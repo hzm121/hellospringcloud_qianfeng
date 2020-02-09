@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/admin/hello-spring-cloud-admin.iml" filepath="$PROJECT_DIR$/admin/hello-spring-cloud-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin/hello-spring-cloud-admin-server.iml" filepath="$PROJECT_DIR$/admin/hello-spring-cloud-admin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/config/hello-spring-cloud-config.iml" filepath="$PROJECT_DIR$/config/hello-spring-cloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/dependencies/hello-spring-cloud-dependencies.iml" filepath="$PROJECT_DIR$/dependencies/hello-spring-cloud-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka/hello-spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/eureka/hello-spring-cloud-eureka.iml" />
@@ -10,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/service-admin/hello-spring-cloud-service-admin.iml" filepath="$PROJECT_DIR$/service-admin/hello-spring-cloud-service-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-admin-feign/hello-spring-cloud-web-admin-feign.iml" filepath="$PROJECT_DIR$/web-admin-feign/hello-spring-cloud-web-admin-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-admin-ribbon/hello-spring-cloud-web-admin-ribbon.iml" filepath="$PROJECT_DIR$/web-admin-ribbon/hello-spring-cloud-web-admin-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin/hello-spring-cloud-zipkin.iml" filepath="$PROJECT_DIR$/zipkin/hello-spring-cloud-zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/hello-spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/zuul/hello-spring-cloud-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/hellospringcloud.iml" filepath="$PROJECT_DIR$/.idea/hellospringcloud.iml" />
     </modules>
